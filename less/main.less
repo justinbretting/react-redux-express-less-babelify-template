@@ -1,0 +1,19 @@
+//@import './variables.less';
+//@import './colors.less';
+//@import './fonts.less';
+//@import './mixins.less';
+
+body {
+    line-height: 1;
+}
+
+
+@keyframes spin {
+    to { transform: rotate(360deg); }
+}
+
+.spinner {
+    i {
+        animation: spin 1s linear infinite;
+    }
+}

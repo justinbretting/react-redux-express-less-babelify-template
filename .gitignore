@@ -1,0 +1,7 @@
+node_modules
+.DS_Store
+public/scripts/*
+public/css/main.css
+public/css/vendor.css
+public/main.js
+.idea
